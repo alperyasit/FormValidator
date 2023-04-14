@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.form-group {
+    padding: 3% 10%;
+
+}
+
+.genel {
+    box-shadow: 5px 5px 5px rgba(17, 2, 2, 0.323);
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-headerr {
+    display: flex;
+    background-color: rgb(226, 217, 217);
+    height: 50px;
+    align-items: center;
+    justify-content: left;
+    border: 2px solid gray;
+    padding-left: 10px;
+
+}
+
+label {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#form {
+    padding-top: 25px;
+}
+
+
+
+input {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-top: 5px;
+    padding: 4px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+input:focus {
+    border-color: red;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid grey;
+}
+
+
+.register {
+    display: flex;
+    text-align: center;
+    width: 33%;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 17px;
+    background-color: rgb(87, 54, 54);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    justify-content: center;
+    box-shadow: 2px 2px 5px rgba(6, 37, 4, 0.5);
+
+
+
+}
+
+.register:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.register:not(:hover) {
+    background-color: rgb(87, 54, 54);
+    transition: 0.5s ease-in-out;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.invalid-feedback {
+    display: block;
+    font-size: 14px;
+    color: #dc3545;
+}
